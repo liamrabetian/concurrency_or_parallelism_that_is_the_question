@@ -19,7 +19,7 @@ if __name__ == '__main__':
         'https://www.python.org',
     ] * 80
 
-start_time = time.time()
-download_all_sites(sites)
-duration = time.time() - start_time
-print(f'Downloaded {len(sites)} in {duration} seconds!')
+    start_time = time.time()
+    download_all_sites(sites)
+    duration = time.time() - start_time
+    print(f'Downloaded {len(sites)} in {duration} seconds!')
